@@ -57,7 +57,7 @@ public class StringFunctions {
         
         public static String analyzeServerInput(String input){
             
-            Pattern ChannelPrivMsg = Pattern.compile("^:[a-zA-Z\"|\"]+![a-zA-Z]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+.[a-zA-Z0-9]+.* PRIVMSG #[a-zA-Z0-9]+ :.*+$");
+            Pattern ChannelPrivMsg = Pattern.compile("^:+.* PRIVMSG #+.* :.*+$");
             Pattern userPart = Pattern.compile("^:[a-zA-Z\"|\"]+![a-zA-Z]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+.[a-zA-Z0-9]+.* PART #[a-zA-Z0-9]+$");
             Pattern userJoin = Pattern.compile("^:[a-zA-Z\"|\"]+![a-zA-Z]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+.[a-zA-Z0-9]+.* JOIN :#[a-zA-Z0-9]+$");
             Pattern userQuit;

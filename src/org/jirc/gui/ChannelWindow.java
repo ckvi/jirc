@@ -172,7 +172,7 @@ public class ChannelWindow extends JDesktopPane implements HyperlinkListener{
                                                     serverConnection.removeChannel(myCW);
                                                 }
                                                 else{
-                                                    serverConnection.sendMessage("privmsg " + getName() + "  " + send_message);
+                                                    serverConnection.sendMessage("privmsg " + getName() + "  :" + send_message);
                                                     printMessage(send_message,serverConnection.getNick());
                                                     input.setText("");
                                                 }
