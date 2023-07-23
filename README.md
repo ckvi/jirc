@@ -10,7 +10,7 @@ https://en.wikipedia.org/wiki/Internet_Relay_Chat
 Building instructions
 =====================
 
-The here provided solution is a netbeans project which was build with netbeans 12.4. Once pulled, the project should be opened and compiled with netbeans without any further configuration or requiremnts.
+The here provided solution is a netbeans project which was build with netbeans 12.4. Once pulled, the project should be opened and compiled with netbeans without any further configuration or requirements.
 
 Client Configuration
 =============
@@ -31,7 +31,7 @@ JIRC is capable of handling several connections to IRC servers. It is required t
 </configuration>
 ```
 
-Address and port a crucial for establishing a connection successfully. 
+Address and port are crucial for establishing a connection successfully. 
 
 Bug Reports
 ===========
